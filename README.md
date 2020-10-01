@@ -1,4 +1,4 @@
-# Yen Futures return Forecasting using Time Series Analysis
+# Yen Futures return Forecasting using Time Series & Linear Regression Analysis
 
 ![Yen Photo](Resources/Japanese_Market.png)
 
