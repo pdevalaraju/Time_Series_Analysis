@@ -6,6 +6,8 @@
 
 The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies. Hedge funds, too, are keenly interested in anything that will give them a consistent edge in predicting currency movements.
 
+### Time Series Analysis
+
 In this Notebook, we will leverage time-series analysis tools in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
 
 Using the historical Dollar-Yen exchange rate futures data (yen.csv - in resources folder) we will apply time series analysis and modeling to determine whether there is any predictable behavior.
@@ -25,4 +27,18 @@ Using the results of the time series analysis and modeling we shall answer the f
 3. Based on the model evaluation, would you feel confident in using these models for trading?
 
 
+### Linear Regression Forecasting
 
+In this notebook, you will build a Scikit-Learn linear regression model to predict Yen futures ("settle") returns with *lagged* Yen futures returns.
+
+The steps outlined below have been incroprated in the regression_analysis notebook to create and evaluate the model:
+
+1. Data Preparation (Creating Returns and Lagged Returns and splitting the data into training and testing data)
+2. Fitting a Linear Regression Model.
+3. Making predictions using the testing data.
+4. Out-of-sample performance.
+5. In-sample performance.
+
+Using the results of the linear regression analysis and modeling the following question will be addressed:
+
+* Does linear regression analysis model perform better or worse on out-of-sample data compared to in-sample data?
